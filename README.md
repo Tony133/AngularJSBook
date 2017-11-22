@@ -1,2 +1,17 @@
 # AngularJSBook
 Simple example of single page application with Angular JS for API REST with Yeoman
+
+## Install Application
+
+```
+   $ npm install
+   $ bower install
+```
+
+## Build & development
+
+Run `grunt` for building and `grunt serve` for preview.
+
+## Testing
+
+Running `grunt test` will run the unit tests with karma.
