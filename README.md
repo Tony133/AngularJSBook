@@ -1,4 +1,7 @@
 # AngularJSBook
+
+[![Build Status](https://travis-ci.org/Tony133/AngularJSBook.svg?branch=master)](https://travis-ci.org/Tony133/AngularJSBook)
+
 Simple example of single page application with Angular JS for API REST with Yeoman
 
 ## Install Application
