@@ -52,7 +52,7 @@ angular.module('applicationBookApp')
                     '<button class="btn btn-primary" ng-show="editingBooks[value.id]" ng-click="updateBook($index)"><span class="glyphicon glyphicon-ok"></span> Update</button>'+
                 '</td>' +
                 '<td>' +
-                       '<button class="btn btn-danger" ng-click="removeBooks($index)"><span class="glyphicon glyphicon-remove"></span> Delete</button>' +
+                       '<button class="btn btn-danger" ng-click="removeBook($index)"><span class="glyphicon glyphicon-remove"></span> Delete</button>' +
                 '</td>' +
 							'</tr>'+
 						'</tbody>'+
