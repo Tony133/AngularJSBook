@@ -48,8 +48,8 @@ angular.module('applicationBookApp')
                     '</div>'+
 								'</td>' +
                 '<td>' +
-						  	    '<button class="btn btn-warning" ng-hide="editingBooks[value._id]" ng-click="modifyBook(value)"><span class="glyphicon glyphicon-pencil"></span> Edit</button>'+
-                    '<button class="btn btn-primary" ng-show="editingBooks[value._id]" ng-click="updateBook($index)"><span class="glyphicon glyphicon-ok"></span> Update</button>'+
+						  	    '<button class="btn btn-warning" ng-hide="editingBooks[value.id]" ng-click="modifyBook(value)"><span class="glyphicon glyphicon-pencil"></span> Edit</button>'+
+                    '<button class="btn btn-primary" ng-show="editingBooks[value.id]" ng-click="updateBook($index)"><span class="glyphicon glyphicon-ok"></span> Update</button>'+
                 '</td>' +
                 '<td>' +
                        '<button class="btn btn-danger" ng-click="removeBooks($index)"><span class="glyphicon glyphicon-remove"></span> Delete</button>' +
