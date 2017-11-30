@@ -111,7 +111,7 @@ angular.module('applicationBookApp')
               var book = scope.books[index];
               bookService.update(book, function(resource) {
                 console.log('Book update successfuly!', resource);
-                //scope.editingBooks[book.id] = false;
+                scope.editingBooks[book.id] = false;
 
                 scope.loadBooks();
               }, function(e) {
